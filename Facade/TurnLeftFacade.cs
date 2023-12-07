@@ -2,9 +2,9 @@
 {
     public class TurnLeftFacade
     {
-        private Eyes eyes = new();
-        private Legs legs = new();
-        private Hands hands = new();
+        private readonly Eyes eyes = new();
+        private readonly Legs legs = new();
+        private readonly Hands hands = new();
 
         public void TurnLeft()
         {

@@ -1,7 +1,6 @@
 ﻿using Facade;
 
-Console.WriteLine( "Facade Design Pattern example" );
-Console.WriteLine();
+Console.WriteLine( "Facade Structural Design Pattern example\n" );
 
 TurnLeftFacade turnLeft = new();
 turnLeft.TurnLeft();
